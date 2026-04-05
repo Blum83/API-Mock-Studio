@@ -1,0 +1,21 @@
+{
+  "mocks": [
+    {
+      "id": "d2f4a860-3cc6-4dd3-aac9-94e0abee8a26",
+      "name": "POST /api/v1/security/operator/signin",
+      "method": "POST",
+      "path": "/api/v1/security/operator/signin",
+      "enabled": true,
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "token": "eyJhbGciOiJIUzUxMiJ9.eyJpZF9vcGVyYXRvciI6IjQ0MzgiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkX2FkbWluIjoiNWNiZWEwZGItMmNhYS00MzA5LWEzYjMtNGZhNjc1NWM1OTc5IiwiZXhwIjoxNzc1NDk5NDcyfQ.cHdoqgEH1UL4Y2EHTNw9no0aS3LmoZtqWHdbnvhINI8TxbIZTVkHqQE7ZPeFlJpNdrxDf_QtqscnLjbn1PdTCA"
+        }
+      },
+      "createdAt": "2026-04-05T18:18:54.153Z"
+    }
+  ]
+}

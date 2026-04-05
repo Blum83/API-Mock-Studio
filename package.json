@@ -1,0 +1,26 @@
+{
+  "name": "api-mock-studio",
+  "version": "1.0.0",
+  "description": "HTTP proxy + web UI for intercepting, inspecting, and mocking API responses",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "dev:ui": "vite --config ui/vite.config.js",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:ui\"",
+    "build": "vite build --config ui/vite.config.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "lowdb": "^1.0.0",
+    "micromatch": "^4.0.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "concurrently": "^8.2.2",
+    "vite": "^4.5.3",
+    "vue": "^3.3.8"
+  }
+}
