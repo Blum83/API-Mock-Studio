@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Background -->
+  <rect width="256" height="256" rx="48" fill="#0d0d0d"/>
+  <!-- Outer ring -->
+  <circle cx="128" cy="128" r="96" fill="none" stroke="#a78bfa" stroke-width="8"/>
+  <!-- Inner circle -->
+  <circle cx="128" cy="128" r="40" fill="#a78bfa"/>
+  <!-- Network lines -->
+  <line x1="128" y1="32" x2="128" y2="88" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="168" x2="128" y2="224" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  <line x1="32" y1="128" x2="88" y2="128" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  <line x1="168" y1="128" x2="224" y2="128" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  <!-- Diagonal lines -->
+  <line x1="60" y1="60" x2="99" y2="99" stroke="#a78bfa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <line x1="157" y1="157" x2="196" y2="196" stroke="#a78bfa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <line x1="196" y1="60" x2="157" y2="99" stroke="#a78bfa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <line x1="60" y1="196" x2="99" y2="157" stroke="#a78bfa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+</svg>

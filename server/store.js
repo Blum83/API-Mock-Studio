@@ -5,7 +5,9 @@ const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 const config = require('../config');
 
-const dataDir = path.join(__dirname, '../data');
+// APP_DATA_DIR is set by electron/main.js before this module is loaded.
+// Falls back to ./data for the plain `npm start` workflow.
+const dataDir = process.env.APP_DATA_DIR || path.join(__dirname, '../data');
 
 const mocksDb = low(new FileSync(path.join(dataDir, 'mocks.json')));
 const requestsDb = low(new FileSync(path.join(dataDir, 'requests.json')));
